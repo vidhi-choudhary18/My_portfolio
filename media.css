@@ -1,0 +1,385 @@
+/*@media (min-width:992px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+}
+@media  screen and (max-width:992px){
+    .intro {
+        width: 100%;
+        flex-direction: column-reverse;
+        }
+    
+}
+@media (max-width:768) {
+    .intro_content h1{
+        font-weight: 400;
+    }
+}
+@media(max-width:992px){
+    .intro_content{
+        text-align: center;
+    }
+}
+@media (max-width:991px){
+    .introduction_section{
+        padding: 10.875rem 0 5.375rem;
+    }
+}
+
+@media (max-width:768) {
+    .About-me_content h1{
+        font-weight: 400;
+    }
+    
+}
+@media (max-width:991px) {
+    .About-me_content{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:300px) and (max-width:602px){
+    .work-process{
+        height: 1750px;
+        align-content: center;
+        text-align: center;
+        
+    }
+}
+@media screen and (min-width:300px) and (max-width:602px){
+    .work-process_folder-mq1{
+      justify-content: center;
+    }
+}
+@media screen and (min-width:300px) and (max-width:602px){
+    .work-process_folder-mq2{
+      justify-content: center;
+    }
+}
+@media  screen and (max-width:991px){
+    .form_section{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    form .sub-btn {
+       text-align: center;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .my-details_section{
+        position: relative;
+        top:20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .my_details{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.form_section-1{
+    width: 100%;
+}
+.my_details h6{
+    font-weight: 500;
+    font-size: 8px;
+}
+.my_details p{
+    font-size: 10px;
+}
+  .my_details .my_location {
+    width: 30%;
+    padding: 0%;
+    
+  }
+    .my_details .my_mail{
+    width: 40%;
+   padding: 0%;
+  }
+    .my_details .my_contact {
+    width: 30%;
+   padding: 0%;
+  }
+  .my-details_section{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+}
+@media (max-width:992px){
+    footer{
+        height: 270px;
+    }
+    .footer_logo-section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top:15px
+    
+    }
+    .footer-part-2{
+        position: relative;
+        top: 40px;
+    }
+     .footer_links{
+     position: relative;
+    top:30px;
+ }
+    .footer-copyright{
+        position: relative;
+        top: 35px;
+    }
+    
+}  */ 
+
+@media(max-width:992px) {
+        .intro {
+        /* width: 100%; */
+        flex-direction: column-reverse;
+        }    
+        .introduction_section{
+        padding: 10.875rem 0 5.375rem;
+    }
+       .intro_content h1{
+        font-weight: 400;
+    }
+     .intro_content{
+        text-align: center;
+    }
+    /* .intro-center{
+       display: flex;
+        justify-items: center;
+        align-items: center;
+    } */
+    .About-me_content{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .profile_icons{
+        background-color: antiquewhite;
+        box-shadow: none;
+        width: auto;
+        position: relative;
+        bottom: 0px;
+
+    }
+    .profile_icons i{
+        border: 1px solid #452f0f;
+    }
+    .work-process{
+        height: 1200px;
+    }
+    .project_section{
+        /* height: 350px; */
+        text-align: center;
+    }
+     .project_section h1{
+        font-weight: 500;
+     }
+      .project_section p{
+        font-size: medium;
+      }
+    .form_section{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .form_section-1{
+    width: 100%;
+}
+    form .sub-btn {
+       text-align: center;
+    }
+    .my-details_section{
+         position: relative;
+         top:20px;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         text-align: center;
+    }
+
+    .my_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.my_details h6{
+    font-weight: 500;
+    font-size: 15px;
+}
+.my_details p{
+    font-size: 15px;
+}
+.footer-color{
+    height: 300px;
+}
+  
+    .footer_logo-section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top:20px;
+    
+    }
+    .footer-part-2{
+        position: relative;
+        top: 35px;
+    }
+     .footer_links{
+     position: relative;
+    top:30px;
+ }
+    .footer-copyright{
+        position: relative;
+        top: 35px;
+    }
+}
+@media (max-width:769px) {
+        .work-process{
+        height: 1500px;
+        
+    }
+      .work-process_folder-mq1{
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+     .work-process_folder-mq2{
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .work-process_folder .working-box{
+        width: 80%;
+        height: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+    .card-wrapper h3{
+        font-size: medium;
+    }
+}
+
+@media (max-width:425px) {
+    .work-process_content{
+        position: relative;
+        top:50px;
+    }
+    .work-process{
+        height: 1600px;
+    }
+    .work-process_folder{
+        margin-top: 50px;
+    }
+    .experince_count h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .projects_count h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .certification_count h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+       .experince_count p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .projects_count p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .certification_count p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .project_section{
+        align-content: center;      
+    }
+    .form_section-1 h3{
+        font-size: medium;
+        font-weight: 500;
+    } 
+      .my-details_section{
+         text-align:left;
+    }    
+    .my_details{
+            overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-left: 10px;
+    height: 270px ;
+        }
+    .my_details h6{
+    font-weight: 400;
+    font-size: 8px;
+}
+.my_details p{
+    font-size: 8px;
+}
+   .my_details .my_location{
+   padding: 10px;
+   width: 150px;
+   border-radius: 5px;
+   position: relative;
+   left: 6px;
+} 
+.my_details .my_location a{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    padding: 6px;
+    margin: 6px;
+}
+.my_details .my_mail{
+    padding: 10px;
+    width: 170px;
+    border-radius: 5px;
+     position: relative;
+   left: 6px;
+}
+.my_details .my_mail a{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+     
+    padding: 6px;
+    margin: 6px;
+}
+.my_details .my_contact{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+     position: relative;
+   left: 6px;
+}
+.my_details .my_contact a {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   
+    padding: 6px;
+    margin: 6px;
+}
+}
